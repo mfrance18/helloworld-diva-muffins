@@ -1,5 +1,5 @@
-html { 
-    background: url(/images/background-image.jpeg) no-repeat center center fixed; 
+html {
+    background: url(/images/background-image.jpeg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -29,3 +29,4 @@ span:hover{
     padding-right: 25px;
 }
 
+/* comment */
