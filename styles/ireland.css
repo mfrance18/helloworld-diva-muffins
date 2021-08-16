@@ -1,0 +1,21 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: url(/images/background-image.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+header img {
+    overflow: hidden;
+}
