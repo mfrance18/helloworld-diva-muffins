@@ -7,26 +7,23 @@ html {
 h1{
     text-align: center;
     font-size: 100px;
+    margin-bottom: 11rem;
+    text-shadow: 2px 2px #ffffff;
 }
-
-
  .flags {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* overflow: hidden; */
 }
 .flags img{
     width: 400px;
     height: 250px;
     display: flex;
-    /* padding-top: 20%; */
-    /* padding-right: 40px; */
     border: black 4px solid;
     border-radius: 20px;
-    margin-right: 40px;
-    margin-top: 20%;
 } 
-
 .flags img:hover {
     opacity: 80%;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.9);
 }
