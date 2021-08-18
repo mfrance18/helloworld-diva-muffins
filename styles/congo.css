@@ -50,12 +50,31 @@ body
     font-weight: 700;
     background-color:rgba(255, 255, 255, 0.4);
 }
+
+.belowHeaderNav a
+{
+    text-decoration: none;
+}
+
+
 .japanText {
     display: flex;
     justify-content: center;
     font-size: 5em;
     text-shadow: 2px 2px #ffffff;
+  
 }
+
+.congo-text
+
+{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    width: 70px;
+    padding-left: 6px;
+}
+
 .mainLogo {
     display: flex;
     justify-content: center;
