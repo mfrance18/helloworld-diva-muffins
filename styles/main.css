@@ -1,6 +1,7 @@
 html {
     background: url(/images/background-image.jpeg) no-repeat center center fixed;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1{
@@ -8,23 +9,24 @@ h1{
     font-size: 100px;
 }
 
-.flags {
+
+ .flags {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-
-span{
-    display: none;
-}
-
-span:hover{
-    display: block;
-}
-
 .flags img{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     display: flex;
-    padding-top: 20%;
-    padding-right: 25px;
+    /* padding-top: 20%; */
+    /* padding-right: 40px; */
+    border: black 4px solid;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-top: 20%;
+} 
+
+.flags img:hover {
+    opacity: 80%;
 }
